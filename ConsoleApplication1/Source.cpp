@@ -31,7 +31,7 @@ int divde(const string& PartNumber) {
 		if (PartNumber[3])
 			chi_num[i++] = s[9 + length - 3];
 		flag = true;
-	} else
+	} else 
 		flag = false;
 	if (PartNumber.length() == 4 && PartNumber[3] != '0') {
 		if (!flag && chi_num[i - 1] != s[0]) {
