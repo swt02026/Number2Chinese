@@ -11,7 +11,7 @@ int divde(const string& PartNumber) {
 		chi_num[i++] = s[PartNumber[0] - '0'];
 		if(PartNumber.length() > 1)chi_num[i++] = s[9 + length - 1];
 		flag = true;
-	}
+	} 
 	else chi_num[i++] = s[0];
 	if (PartNumber.length() >= 2&&PartNumber[1] != '0') {
 		if (!flag&& chi_num[i - 1] != s[0]) {
